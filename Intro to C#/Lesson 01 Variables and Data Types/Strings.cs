@@ -66,7 +66,7 @@ namespace Intro_to_C_.Lesson_01_Variables_and_Data_Types
             // Substring
             // The Substring method returns a substring of a string.
             // The substring starts at a specified character position and has a specified length.
-            Console.WriteLine(myString.Substring(6, 5)); // -> World (starts at index 6 and has a length of 5)
+            Console.WriteLine(myString.Substring(6, 5)); // -> World (starts at index 6 and has a length of 5           )
 
             // Remove
             // The Remove method deletes a specified number of characters from a string.
@@ -105,6 +105,12 @@ namespace Intro_to_C_.Lesson_01_Variables_and_Data_Types
             myString = "Hello,World,!";
             string[] myArray = myString.Split(','); // -> ["Hello", "World", "!"]
             Console.WriteLine(myArray[0]); // -> Hello
+
+            // Get the index of a substring inside a string
+            // You can use the IndexOf method to get the index of a substring inside a string.
+            // The IndexOf method returns -1 if the substring is not found.
+            myString = "Hello World!";
+            Console.WriteLine(myString.IndexOf("World")); // -> 6
 
             // Escape Characters
             // Because strings must be written within quotes, C# will misunderstand this string, and generate an error:

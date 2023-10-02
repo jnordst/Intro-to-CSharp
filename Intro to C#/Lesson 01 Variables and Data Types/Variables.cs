@@ -13,6 +13,7 @@ namespace Intro_to_C_.Lesson_01_Variables_and_Data_Types
         // In C#, there are different types of variables (defined with different keywords), for example:
         // int - stores integers (whole numbers), without decimals
         // float - stores floating point numbers, with decimals
+        // double - stores floating point numbers, with decimals (can store more decimal points than float)
         // char - stores single characters. Char values are surrounded by single quotes
         // string - stores text, such as "Hello World". String values are surrounded by double quotes.
         // bool - stores values with two states: true or false
@@ -21,6 +22,7 @@ namespace Intro_to_C_.Lesson_01_Variables_and_Data_Types
         // <data type> <variable name> = <value>;
         int myInt = 30;
         float myFlaot = 19.99f; // float values are followed by an f
+        double myDouble = 19.99; // double values can be followed by a d, but it is not required
         char myChar = 'A';
         string myString = "Hello World 123!";
         bool myBool = true;
